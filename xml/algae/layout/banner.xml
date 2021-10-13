@@ -1,0 +1,94 @@
+<section><panel>
+	<x>0</x><y>0</y> <w>101</w><h>101</h>
+	<backColor>#EAEA9E</backColor>
+	<borderBottom>solid #863A00</borderBottom>
+	<panel>
+		<x>10</x><y>10</y> <w>10</w><h>80</h>
+		<makeSquare></makeSquare>
+		<img>money.png</img>
+		<backgroundSize>100% 100%</backgroundSize>
+	</panel>
+	<panel>
+		<x>20</x><y>10</y> <w>20</w><h>80</h>
+		<align>left</align>
+		<data>
+			<type>AO</type>
+			<label>money</label>
+			<interval>300</interval>
+		</data>
+	</panel>
+	<panel>
+		<x>40</x><y>20</y> <w>20</w><h>60</h>
+		<panel>
+			<x>0</x><y>0</y> <w>49</w><h>100</h>
+			<img>pause.png</img>
+			<makeSquare></makeSquare>
+			<backgroundSize>100% 100%</backgroundSize>
+			<backColor>#00ff00</backColor>
+			<leftClick>
+				<fn>togglePause</fn>
+			</leftClick>
+			<data>
+				<type>DO</type>
+				<label>paused</label>
+				<interval>300</interval>
+				<backColorOn>#00ff00</backColorOn>
+				<backColorOff>inherit</backColorOff>
+			</data>
+		</panel>
+		<panel>
+			<x>51</x><y>0</y> <w>49</w><h>100</h>
+			<img>speed1.png</img>
+			<makeSquare></makeSquare>
+			<backgroundSize>100% 100%</backgroundSize>
+			<leftClick>
+				<fn>toggleSpeed</fn>
+			</leftClick>
+			<data>
+				<type>ao</type>
+				<label>tick</label>
+				<noText></noText>
+				<interval>300</interval>
+				<conditions>
+					<condition>
+						<comparator>gt</comparator>
+						<value>1000</value>
+						<img>speed1.png</img>
+					</condition>
+					<condition>
+						<comparator>eq</comparator>
+						<value>1000</value>
+						<img>speed2.png</img>
+					</condition>
+					<condition>
+						<comparator>lt</comparator>
+						<value>1000</value>
+						<img>speed3.png</img>
+					</condition>
+				</conditions>
+			</data>
+		</panel>
+	</panel>
+	<panel>
+		<x>70</x><y>10</y> <w>10</w><h>80</h>
+		<makeSquare></makeSquare>
+		<img>days.png</img>
+		<backgroundSize>100% 100%</backgroundSize>
+	</panel>
+	<panel>
+		<x>70</x><y>10</y> <w>10</w><h>80</h>
+		<makeSquare></makeSquare>
+		<img>days.png</img>
+		<backgroundSize>100% 100%</backgroundSize>
+	</panel>
+	<panel>
+		<x>80</x><y>10</y> <w>20</w><h>80</h>
+		<align>left</align>
+		<data>
+			<type>AO</type>
+			<label>day</label>
+			<roundDown></roundDown>
+			<interval>300</interval>
+		</data>
+	</panel>
+</panel></section>

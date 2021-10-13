@@ -1,0 +1,42 @@
+<section><panel>
+	<x>0</x><y>0</y> <w>101</w><h>101</h>
+	<backColor>#979750</backColor>
+	<borderRight>thick solid #863A00</borderRight>
+
+	<panel>	<desc>Name</desc>
+		<x>25</x><y>18</y> <w>50</w><h>10</h>
+		<text>Name here</text>
+		<textColor>#863A00</textColor>
+		<opacity>.8</opacity>
+		<data>
+			<type>AO</type>
+			<label>name</label>
+			<interval>1000</interval>
+		</data>
+	</panel>
+	<panel>	<desc>Banner</desc>
+		<x>0</x><y>0</y> <w>101</w><h>7</h>
+		<section>
+			<source>algae/layout/banner.xml</source>
+		</section>
+	</panel>
+
+	<panel>	<desc>Status bars</desc>
+		<x>5</x><y>23</y> <w>90</w><h>16</h>
+		<section>
+			<source>algae/layout/statusBar.xml</source>
+		</section>
+	</panel>
+	<panel>	<desc>Controls</desc>
+		<x>5</x><y>50</y> <w>90</w><h>40</h>
+		<backColor>#B7B700</backColor>
+		<border>
+			<style>solid</style>
+			<width>thin</width>
+			<color>#000000</color>
+		</border>
+		<section>
+			<source>algae/layout/controls.xml</source>
+		</section>
+	</panel>
+</panel></section>

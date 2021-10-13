@@ -1,0 +1,39 @@
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<style>
+			html {height: 100%;}
+			body {min-height: 100%; overflow: hidden;}
+		</style>
+		<title>Index Page</title>
+		<script src="./modules/functions.js"></script>
+		<script src="./modules/audio.js"></script>
+		<script src="./modules/phpManager.js"></script>
+		<script src="./modules/sql.js"></script>
+		<script src="./modules/dataManager.js"></script>
+		<script src="./modules/buildPage.js"></script>
+		<script src="./modules/ao.js"></script>
+		<script src="./modules/do.js"></script>
+		<script src="./modules/panel.js"></script>
+
+	</head>
+	<body>
+	<iframe src="../snd/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+	</body>
+
+	<script>
+	"use strict";
+	var page = {};
+	setxmlPath("../xml/"); 
+	setimgPath("./img/"); 
+	setphpPath("./php/"); 
+//	function isDataReady() { return true; } // temp 
+
+	getCreatures("creature.xml");
+	getPageFromXML("layout.xml", page);
+	setTimeout(function(){ audioStart(); },3000); // start playing audio after 3 sec
+	
+	</script>
+	</html>
+

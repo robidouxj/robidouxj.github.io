@@ -1,0 +1,6 @@
+<creatures>
+	<creature>
+		<type>algae</type>
+		<xml>algae.xml</xml>
+	</creature>
+</creatures>

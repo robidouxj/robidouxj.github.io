@@ -1,0 +1,22 @@
+<body>
+	<panel>
+		<desc>background</desc>
+		<x>0</x><y>0</y> <w>102</w><h>100.5</h>
+		<zIndex>1</zIndex>
+		<backColor>#FFFFFF</backColor>
+		<panel> <desc>Side Panel</desc>
+			<x>0</x><y>0</y> <w>25</w><h>101</h>
+			<section>
+				<source>algae/layout/sidePanel.xml</source>
+			</section>
+		</panel>
+		<panel> <desc>Background panel</desc>
+			<x>25</x><y>0</y> <w>75</w><h>101</h>
+			<img>scene.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+			<section>
+				<source>algae/layout/sprite.xml</source>
+			</section>
+		</panel>
+	</panel>
+</body>

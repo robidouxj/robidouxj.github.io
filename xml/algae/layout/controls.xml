@@ -1,0 +1,94 @@
+<section>
+	<panel>	<desc>Feed button</desc>
+		<x>5</x><y>5</y> <w>40</w><h>40</h>
+		<backColor>#EAEA9E</backColor>
+		<border>
+			<style>solid</style>
+			<width>thin</width>
+			<color>#000000</color>
+		</border>
+		<leftClick>
+			<fn>feed</fn>
+			<fnParent>activeCreature</fnParent>
+		</leftClick>
+		<panel>
+			<x>0</x><y>0</y> <w>100</w><h>20</h>
+			<text>Feed</text>
+		</panel>
+		<panel>
+			<x>20</x><y>20</y> <w>60</w><h>60</h>
+			<makeSquare></makeSquare>
+			<img>npk3.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+	</panel>
+	<panel>	<desc>CO2 button</desc>
+		<x>55</x><y>5</y> <w>40</w><h>40</h>
+		<backColor>#EAEA9E</backColor>
+		<border>
+			<style>solid</style>
+			<width>thin</width>
+			<color>#000000</color>
+		</border>
+		<leftClick>
+			<fn>aerate</fn>
+			<fnParent>activeCreature</fnParent>
+		</leftClick>
+		<panel>
+			<x>0</x><y>0</y> <w>100</w><h>20</h>
+			<text>CO2</text>
+		</panel>
+		<panel>
+			<x>10</x><y>20</y> <w>80</w><h>80</h>
+			<makeSquare></makeSquare>
+			<img>co2.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+	</panel>
+	<panel>	<desc>Clean button</desc>
+		<x>55</x><y>55</y> <w>40</w><h>40</h>
+		<backColor>#EAEA9E</backColor>
+		<border>
+			<style>solid</style>
+			<width>thin</width>
+			<color>#000000</color>
+		</border>
+		<leftClick>
+			<fn>clean</fn>
+			<fnParent>activeCreature</fnParent>
+		</leftClick>
+		<panel>
+			<x>0</x><y>0</y> <w>100</w><h>20</h>
+			<text>Clean</text>
+		</panel>
+		<panel>
+			<x>10</x><y>20</y> <w>80</w><h>70</h>
+			<makeSquare></makeSquare>
+			<img>clean.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+	</panel>
+	<panel>	<desc>Harvest button</desc>
+		<x>5</x><y>55</y> <w>40</w><h>40</h>
+		<backColor>#EAEA9E</backColor>
+		<border>
+			<style>solid</style>
+			<width>thin</width>
+			<color>#000000</color>
+		</border>
+		<leftClick>
+			<fn>harvest</fn>
+			<fnParent>activeCreature</fnParent>
+		</leftClick>
+		<panel>
+			<x>0</x><y>0</y> <w>100</w><h>20</h>
+			<text>Harvest</text>
+		</panel>
+		<panel>
+			<x>10</x><y>20</y> <w>80</w><h>70</h>
+			<makeSquare></makeSquare>
+			<img>harvest.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+	</panel>
+</section>

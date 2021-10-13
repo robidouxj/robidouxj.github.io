@@ -1,0 +1,63 @@
+<section>
+	<panel> <desc>Sprite container</desc>
+		<x>10</x><y>0</y> <w>50</w><h>100</h>
+		<panel>	<desc>Container</desc>
+			<x>0</x><y>10</y> <w>100</w><h>90</h>
+			<img>cylinderBack.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+			<opacity>.9</opacity>
+		</panel>
+		<panel>	<desc>Sprite</desc>
+			<x>11</x><y>36</y> <w>80</w><h>50</h>
+			<makeSquare></makeSquare>
+			<img>algae_uncertain.gif</img>
+			<backgroundSize>100% 100%</backgroundSize>
+			<data>
+				<type>ao</type>
+				<noText></noText>
+				<label>happiness</label>
+				<conditions>
+					<condition>
+						<comparator>eq</comparator>
+						<value>3</value>
+						<img>algae_happy.gif</img>
+					</condition>
+					<condition>
+						<comparator>eq</comparator>
+						<value>2</value>
+						<img>algae_uncertain.gif</img>
+					</condition>
+					<condition>
+						<comparator>eq</comparator>
+						<value>1</value>
+						<img>algae_unhappy.png</img>
+					</condition>
+					<condition>
+						<comparator>eq</comparator>
+						<value>0</value>
+						<img>dead.png</img>
+					</condition>
+				</conditions>
+			</data>
+		</panel>
+		<panel>	<desc>Container</desc>
+			<x>0</x><y>10</y> <w>100</w><h>90</h>
+			<img>cylinderDirty2.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+			<opacity>0</opacity>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>waterDirty</label>
+				<display>opacity</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+		<panel>	<desc>Container</desc>
+			<x>0</x><y>10</y> <w>100</w><h>90</h>
+			<img>cylinderDirty.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+			<opacity>.4</opacity>
+		</panel>
+	</panel>
+</section>

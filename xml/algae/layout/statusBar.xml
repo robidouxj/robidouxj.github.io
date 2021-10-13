@@ -1,0 +1,164 @@
+<section>
+	<panel>	<desc>Health bar</desc>
+		<x>22.2</x><y>7.3</y> <w>67.5</w><h>31</h>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#FF6666</backColor>
+			<transition></transition>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>health</label>
+				<display>HLBar</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#FF0000</backColor>
+			<opacity>.5</opacity>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>health</label>
+				<display>HLBar</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+		<panel>
+			<x>0</x><y>0</y> <w>100</w><h>100</h>
+			<data>
+				<roundUp></roundUp>
+				<type>AO</type>
+				<label>health</label>
+				<interval>300</interval>
+			</data>
+		</panel>
+	</panel>
+	<panel>	<desc>Food bar</desc>
+		<x>26</x><y>38</y> <w>57</w><h>17.5</h>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#679C65</backColor>
+			<transition></transition>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>nutrition</label>
+				<display>HLBar</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#83F650</backColor>
+			<opacity>.5</opacity>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>nutrition</label>
+				<display>HLBar</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+	</panel>
+	<panel>	<desc>CO2 bar</desc>
+		<x>25</x><y>55</y> <w>55.3</w><h>20</h>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#9999ff</backColor>
+			<transition></transition>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>co2</label>
+				<display>HLBar</display>
+				<min>healthMin</min>
+				<max>heatlhMax</max>
+				<interval>300</interval>
+			</data>
+		</panel>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#5555ff</backColor>
+			<opacity>.5</opacity>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>co2</label>
+				<display>HLBar</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+	</panel>
+	<panel>	<desc>Light bar</desc>
+		<x>22</x><y>75</y> <w>56</w><h>18.5</h>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#F1FF7F</backColor>
+			<transition></transition>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>light</label>
+				<display>HLBar</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+		<panel>
+			<x>0</x><y>0</y> <w>0</w><h>0</h>
+			<backColor>#F1FF7F</backColor>
+			<opacity>.5</opacity>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>light</label>
+				<display>HLBar</display>
+				<interval>300</interval>
+			</data>
+		</panel>
+	</panel>
+	<panel>	<desc>Status bar overlay</desc>
+		<x>0</x><y>0</y> <w>100</w><h>100</h>
+		<img>healthBar.png</img>
+		<backgroundSize>100% 100%</backgroundSize>
+		<opacity>1</opacity>
+		<panel>	<desc>character icon</desc>
+			<x>3</x><y>8</y> <w>20</w><h>80</h>
+			<makeSquare></makeSquare>
+			<img>algae_happy.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+			<data>
+				<noText></noText>
+				<type>AO</type>
+				<label>health</label>
+				<interval>300</interval>
+			</data>
+		</panel>
+		<panel>	<desc>heart icon</desc>
+			<x>85</x><y>9</y> <w>13</w><h>28</h>
+			<makeSquare></makeSquare>
+			<img>heart.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+		<panel>	<desc>fertilizer icon</desc>
+			<x>82</x><y>36</y> <w>6</w><h>21</h>
+			<makeSquare></makeSquare>
+			<img>npk3.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+		<panel>	<desc>co2 icon</desc>
+			<x>77</x><y>55</y> <w>8</w><h>25</h>
+			<makeSquare></makeSquare>
+			<img>co2.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+		<panel>	<desc>light icon</desc>
+			<x>71</x><y>73</y> <w>10</w><h>25</h>
+			<makeSquare></makeSquare>
+			<img>sun.png</img>
+			<backgroundSize>100% 100%</backgroundSize>
+		</panel>
+
+	</panel>
+</section>
